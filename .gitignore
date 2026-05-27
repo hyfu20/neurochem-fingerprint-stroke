@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Heavy local data (do NOT commit raw CNSR-III data)
+*.nii
+*.nii.gz
+*.csv
+*.xlsx
+*.docx
+*.pdf
+*.png
+*.jpg
+data/
+raw_data/
+output/
+*.log
+nohup.out
+
+# Allow Methods/Results/etc. markdown and Figure_Legends
+!Methods_Section.md
+!Results_Section.md
+!Discussion_Section.md
+!Introduction_Section.md
+!Figure_Legends.md
+!README.md
